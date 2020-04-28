@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,11 +42,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Item-->
+        <!--Diary-->
         <scene sceneID="Oav-HT-7jo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rYW-qt-kzq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7FX-kd-Nyp"/>
+                    <tabBarItem key="tabBarItem" title="Diary" image="calendar" catalog="system" id="7FX-kd-Nyp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5ZO-R0-Nt5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -77,11 +77,11 @@
             </objects>
             <point key="canvasLocation" x="2074" y="305"/>
         </scene>
-        <!--Item-->
+        <!--Learn-->
         <scene sceneID="40m-yh-uUG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G4w-SS-wz2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0G7-ly-QOx"/>
+                    <tabBarItem key="tabBarItem" title="Learn" image="lightbulb" catalog="system" id="0G7-ly-QOx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Zc-2Y-ghC">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -112,11 +112,11 @@
             </objects>
             <point key="canvasLocation" x="2074" y="1017"/>
         </scene>
-        <!--Item-->
+        <!--Me-->
         <scene sceneID="Tlk-fP-2Bo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pn4-8e-ZH3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="EdY-zu-auc"/>
+                    <tabBarItem key="tabBarItem" title="Me" image="person" catalog="system" id="EdY-zu-auc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b44-Zv-REs">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -132,4 +132,9 @@
             <point key="canvasLocation" x="1022" y="1017"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="64" height="52"/>
+        <image name="lightbulb" catalog="system" width="56" height="64"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+    </resources>
 </document>
