@@ -29,6 +29,7 @@ class OnboardingB: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
+        
         slider.value = 1.0;
         slider.transform = CGAffineTransform(rotationAngle:CGFloat.pi / 2);
     }

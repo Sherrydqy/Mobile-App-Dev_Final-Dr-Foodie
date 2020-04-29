@@ -27,22 +27,25 @@ class OnboardingC: UIViewController {
     
     @IBAction func btnLoseWeight(){
         targetC = myLoseC;
-        performSegue(withIdentifier: "doneOnboarding", sender: self);
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
+        navigateToMainScreen();
+        
     }
     @IBAction func btnGainWeight(){
         targetC = myGainC;
-        performSegue(withIdentifier: "doneOnboarding", sender: self);
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
+        navigateToMainScreen();
     }
     @IBAction func btnMaintainWeight(){
         targetC = myMaintainC;
-        performSegue(withIdentifier: "doneOnboarding", sender: self);
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
+        navigateToMainScreen();
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var vc = segue.destination as! DiaryViewController;
+    private func navigateToMainScreen(){
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main);
+               guard let mainNavigationVC = mainStoryboard.instantiateInitialViewController() else { return; };
+               present(mainNavigationVC, animated:true, completion:nil);
     }
 
 }
