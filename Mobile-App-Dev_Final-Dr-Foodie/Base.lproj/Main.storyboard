@@ -308,7 +308,7 @@
         <scene sceneID="xFo-JA-g4B">
             <objects>
                 <viewController id="nQZ-zL-fPX" customClass="OnboardingB" customModule="Mobile_App_Dev_Final_Dr_Foodie" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="cZh-1I-Bn4">
+                    <view key="view" contentMode="scaleToFill" id="cZh-1I-Bn4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -384,7 +384,7 @@
                                     <constraint firstItem="wcH-2v-c4c" firstAttribute="leading" secondItem="BCp-22-mOf" secondAttribute="leading" constant="10" id="xaf-X7-yof"/>
                                 </constraints>
                             </stackView>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ntx-We-D6u">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ntx-We-D6u">
                                 <rect key="frame" x="2" y="425.5" width="384" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="380" id="e67-mz-rcw"/>
@@ -393,7 +393,7 @@
                                     <action selector="slideMovedWithSlider:" destination="nQZ-zL-fPX" eventType="valueChanged" id="lqK-Wc-r5G"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xH-gm-fFc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xH-gm-fFc">
                                 <rect key="frame" x="112.5" y="791" width="189" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="h5v-rj-Kp4"/>
@@ -406,10 +406,10 @@
                                 </state>
                                 <connections>
                                     <action selector="calCalories" destination="nQZ-zL-fPX" eventType="touchUpInside" id="Yba-fy-aeZ"/>
-                                    <segue destination="pG3-OB-cAm" kind="push" identifier="physicalLevel" id="Wap-Sn-sca"/>
+                                    <segue destination="pG3-OB-cAm" kind="show" id="3ne-En-0d2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Step 2/2: Tell me more about your:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRQ-Nm-oBQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 2/2: Tell me more about your:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRQ-Nm-oBQ">
                                 <rect key="frame" x="7" y="108" width="400" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="400" id="S7W-vB-15X"/>

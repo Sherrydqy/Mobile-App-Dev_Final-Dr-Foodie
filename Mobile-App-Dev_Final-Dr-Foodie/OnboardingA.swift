@@ -59,6 +59,8 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
                          UserDefaults.standard.set(age, forKey:"age");
                          UserDefaults.standard.set(weight, forKey:"weight");
                          UserDefaults.standard.set(height, forKey:"height");
+                         UserDefaults.standard.set(gender, forKey:"gender");
+
 
                      }else{
                          let message = "Please enter your WEIGHT!";
@@ -94,7 +96,7 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         }
      }
      
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          var vc = segue.destination as! OnboardingB;
          vc.myName = name;
          vc.myAge = age;
@@ -102,7 +104,7 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
          vc.myHeight = height;
          vc.myWeight = weight;
         
-     }
+     }*/
      
      @objc func dismissKeyboard() {
          inputAge.resignFirstResponder();
