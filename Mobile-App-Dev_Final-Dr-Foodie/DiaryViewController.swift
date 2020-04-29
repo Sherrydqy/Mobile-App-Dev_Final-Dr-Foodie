@@ -15,13 +15,9 @@ class DiaryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let name = UserDefaults.standard.string(forKey: "name"){
-            outputName.text = "This is: \(name)";
-            if let targetC = UserDefaults.standard.string(forKey: "targetCalories"){
-                outputTargetC.text = "I need \(targetC) calories/day";
-            }
-        }
-        
+        // Qinyu: This one stores the userName: let name = UserDefaults.standard.string(forKey: "name"){
+        // Qinyu: This one stores the calorie goal: let targetC = UserDefaults.standard.string(forKey: "targetCalories"){
+
         
         // Do any additional setup after loading the view.
     }
