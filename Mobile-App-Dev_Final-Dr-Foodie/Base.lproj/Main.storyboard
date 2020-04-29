@@ -7,22 +7,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="Tkg-f1-AgB">
-            <objects>
-                <viewController id="zx3-Bu-8oX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="PPn-y5-Tgm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="u2H-8N-7gg"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kM4-EE-8Sj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bpa-WY-9yG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2075" y="-399"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -33,8 +17,8 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="rYW-qt-kzq" kind="relationship" relationship="viewControllers" id="jPx-4f-gDq"/>
-                        <segue destination="G4w-SS-wz2" kind="relationship" relationship="viewControllers" id="4Yr-C0-g9e"/>
+                        <segue destination="DrP-xP-8tY" kind="relationship" relationship="viewControllers" id="ysc-uz-2K7"/>
+                        <segue destination="wHz-r3-n8e" kind="relationship" relationship="viewControllers" id="mPM-ms-V2f"/>
                         <segue destination="Pn4-8e-ZH3" kind="relationship" relationship="viewControllers" id="083-tb-NwN"/>
                     </connections>
                 </tabBarController>
@@ -43,58 +27,36 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
         <!--Diary-->
-        <scene sceneID="Oav-HT-7jo">
+        <scene sceneID="2Tx-9C-jcI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rYW-qt-kzq" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Diary" image="calendar" catalog="system" id="7FX-kd-Nyp"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5ZO-R0-Nt5">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="zx3-Bu-8oX" kind="relationship" relationship="rootViewController" id="f2b-4f-y6b"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Skd-Iu-hpJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1023" y="-399"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="070-Bc-YiD">
-            <objects>
-                <viewController id="0k2-Zw-yF8" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Qv2-eV-U1G">
+                <viewController id="DrP-xP-8tY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Xa-XQ-fGR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="pXl-zu-SA7"/>
+                        <viewLayoutGuide key="safeArea" id="3iG-IN-ZwI"/>
                     </view>
-                    <navigationItem key="navigationItem" id="7xe-6I-3i8"/>
+                    <tabBarItem key="tabBarItem" title="Diary" image="calendar" catalog="system" id="Vwi-6f-uTH"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nbg-SF-wTH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="94M-jM-REZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2074" y="305"/>
+            <point key="canvasLocation" x="990" y="-391"/>
         </scene>
         <!--Learn-->
-        <scene sceneID="40m-yh-uUG">
+        <scene sceneID="NOF-py-WPp">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G4w-SS-wz2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Learn" image="lightbulb" catalog="system" id="0G7-ly-QOx"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Zc-2Y-ghC">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="0k2-Zw-yF8" kind="relationship" relationship="rootViewController" id="EKg-aX-gZe"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Yx-2L-MMS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="wHz-r3-n8e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ETN-Vf-DYM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mYC-7r-ygJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Learn" image="lightbulb" catalog="system" id="9zK-13-PdK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ue-lf-aFt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022" y="305"/>
+            <point key="canvasLocation" x="990" y="285"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="h1Q-kj-1aL">
