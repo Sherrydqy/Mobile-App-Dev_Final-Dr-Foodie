@@ -31,10 +31,12 @@ class OnboardingB: UIViewController {
         super.viewDidLoad();
         
         slider.value = 1.0;
+        physical = slider.value;
         slider.transform = CGAffineTransform(rotationAngle:CGFloat.pi / 2);
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {         self.navigationController?.navigationBar.isHidden = false
+    }
 
     @IBAction func slideMoved(slider:UISlider){
         let roundedValue = round(slider.value/step)*step;

@@ -1,5 +1,5 @@
 //
-//  OnboardingA.swift
+//  EditProfileAViewController.swift
 //  Mobile-App-Dev_Final-Dr-Foodie
 //
 //  Created by Qinyu Ding on 4/29/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class EditProfileAViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataSource {
 
      var genderOptions:[String] = ["Male", "Female"];
      var gender:String?
@@ -21,13 +21,23 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
      @IBOutlet var inputAge:UITextField!;
      @IBOutlet var inputHeight:UITextField!;
      @IBOutlet var inputWeight:UITextField!;
-     
+     @IBOutlet var myPicker : UIPickerView!
      
      override func viewDidLoad() {
-         super.viewDidLoad();
-
-             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
-             self.view.addGestureRecognizer(tapGesture)
+        super.viewDidLoad();
+        inputName.text = UserDefaults.standard.string(forKey: "name");
+        inputAge.text = UserDefaults.standard.string(forKey: "age");
+        inputHeight.text = UserDefaults.standard.string(forKey: "height");
+        inputWeight.text = UserDefaults.standard.string(forKey: "weight");
+        gender = UserDefaults.standard.string(forKey: "gender");
+        if (gender=="Male"){
+            myPicker.selectRow(0, inComponent: 0, animated: true)
+        } else{
+             myPicker.selectRow(1, inComponent: 0, animated: true)
+        }
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        self.view.addGestureRecognizer(tapGesture)
      }
      
      func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -41,6 +51,7 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
      
      
      func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+         
          gender = genderOptions[row];
          return gender;
      }
@@ -54,14 +65,12 @@ class OnboardingA: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
                          age = Int(getAge)!;
                          weight = Float(getWeight)!;
                          height = Float(getHeight)!;
-                         performSegue(withIdentifier: "basicInfo", sender: self);
+                         //performSegue(withIdentifier: "basicInfo", sender: self);
                          UserDefaults.standard.set(name, forKey:"name");
                          UserDefaults.standard.set(age, forKey:"age");
                          UserDefaults.standard.set(weight, forKey:"weight");
                          UserDefaults.standard.set(height, forKey:"height");
                          UserDefaults.standard.set(gender, forKey:"gender");
-                        print("原来是______： \(weight)");
-                        print("______存的是： \( UserDefaults.standard.float(forKey:"weight"))");
 
 
                      }else{

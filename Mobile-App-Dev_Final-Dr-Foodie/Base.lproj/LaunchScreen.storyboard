@@ -15,15 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dr. Foodie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSL-kH-cBu">
-                                <rect key="frame" x="145" y="215" width="125" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Foodie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tT3-cd-nqq">
+                                <rect key="frame" x="89" y="256" width="236.5" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="C6I-A9-DjG"/>
+                                    <constraint firstAttribute="width" constant="236.5" id="pZ8-KT-N0c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let Dr. Foodie help you to keep a healthy diet in the easiest way!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFx-yT-xig">
+                                <rect key="frame" x="53" y="363" width="309" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="309" id="AHj-kz-Jud"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="309" id="Iwr-en-jgU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="66" id="SPt-8z-Aae"/>
+                                    <constraint firstAttribute="height" constant="66" id="eGi-OW-PxV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HFx-yT-xig" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="22X-2M-UaB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tT3-cd-nqq" secondAttribute="trailing" constant="88.5" id="7jB-Ii-ZLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HFx-yT-xig" secondAttribute="trailing" constant="52" id="FWV-06-DMM"/>
+                            <constraint firstItem="tT3-cd-nqq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="212" id="Ipw-d1-rs7"/>
+                            <constraint firstItem="tT3-cd-nqq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="QVg-fj-XWl"/>
+                            <constraint firstItem="HFx-yT-xig" firstAttribute="top" secondItem="tT3-cd-nqq" secondAttribute="bottom" constant="48" id="Umk-dm-Wcn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
