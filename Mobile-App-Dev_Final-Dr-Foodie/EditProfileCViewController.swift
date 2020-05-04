@@ -1,5 +1,5 @@
 //
-//  OnboardingC.swift
+//  EditProfileCViewController.swift
 //  Mobile-App-Dev_Final-Dr-Foodie
 //
 //  Created by Qinyu Ding on 4/29/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OnboardingC: UIViewController {
+class EditProfileCViewController: UIViewController {
 
     var myName:String?
     var myGender:String?
@@ -91,25 +91,38 @@ class OnboardingC: UIViewController {
     @IBAction func btnLoseWeight(){
         targetC = loseC;
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
-        navigateToMainScreen();
+        saveChanges();
         
     }
     @IBAction func btnGainWeight(){
         targetC = gainC;
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
-        navigateToMainScreen();
+        saveChanges();
     }
     @IBAction func btnMaintainWeight(){
         targetC = maintainC;
         UserDefaults.standard.set(targetC, forKey:"targetCalories");
-        navigateToMainScreen();
+        saveChanges();
     }
     
-    private func navigateToMainScreen(){
+    private func navigateToMainScreen(action:UIAlertAction){
         let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main);
-               guard let mainNavigationVC = mainStoryboard.instantiateInitialViewController() else { return; };
-               present(mainNavigationVC, animated:true, completion:nil);
-        UserDefaults.standard.set(0, forKey:"nextTab");
+        guard let mainNavigationVC = mainStoryboard.instantiateInitialViewController() else { return; };
+        present(mainNavigationVC, animated:true, completion:nil);
+        
     }
+    
+    private func saveChanges(){
+        let alert = UIAlertController(title: "Changes Saved", message: "Your profile was updated!", preferredStyle: .alert);
+        let action = UIAlertAction(title: "OK", style: .default, handler: navigateToMainScreen);
+        alert.addAction(action);
+        present(alert, animated: true, completion: nil);
+        
+        
+    }
+    
+   /* @IBAction func showAlert(){
+              
+          }*/
 
 }

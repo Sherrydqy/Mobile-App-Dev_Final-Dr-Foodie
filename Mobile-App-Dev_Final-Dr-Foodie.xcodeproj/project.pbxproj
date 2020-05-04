@@ -13,6 +13,9 @@
 		02681E612457436800DB1524 /* Mobile_App_Dev_Final_Dr_Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02681E5F2457436800DB1524 /* Mobile_App_Dev_Final_Dr_Foodie.xcdatamodeld */; };
 		02681E632457436900DB1524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02681E622457436900DB1524 /* Assets.xcassets */; };
 		02681E662457436900DB1524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02681E642457436900DB1524 /* LaunchScreen.storyboard */; };
+		0276961F245A7AA100BD3F6D /* EditProfileAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0276961E245A7AA100BD3F6D /* EditProfileAViewController.swift */; };
+		02769621245A7AB700BD3F6D /* EditProfileBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02769620245A7AB700BD3F6D /* EditProfileBViewController.swift */; };
+		02769623245A7AED00BD3F6D /* EditProfileCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02769622245A7AED00BD3F6D /* EditProfileCViewController.swift */; };
 		02891B4A2459CCF9002910A3 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 02891B482459CCF8002910A3 /* restart.png */; };
 		02891B4B2459CCF9002910A3 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 02891B492459CCF8002910A3 /* Rectangle.png */; };
 		02891B4D2459CDAB002910A3 /* OnboardingA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B4C2459CDAB002910A3 /* OnboardingA.swift */; };
@@ -48,6 +51,9 @@
 		02681E622457436900DB1524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02681E652457436900DB1524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02681E672457436900DB1524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0276961E245A7AA100BD3F6D /* EditProfileAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileAViewController.swift; sourceTree = "<group>"; };
+		02769620245A7AB700BD3F6D /* EditProfileBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileBViewController.swift; sourceTree = "<group>"; };
+		02769622245A7AED00BD3F6D /* EditProfileCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCViewController.swift; sourceTree = "<group>"; };
 		02891B482459CCF8002910A3 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
 		02891B492459CCF8002910A3 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
 		02891B4C2459CDAB002910A3 /* OnboardingA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingA.swift; sourceTree = "<group>"; };
@@ -123,15 +129,19 @@
 				1193F792245BDF1F002C6B84 /* Meal.swift */,
 				1193F79A245BEF77002C6B84 /* images */,
 				02681E622457436900DB1524 /* Assets.xcassets */,
+				02891B522459CF21002910A3 /* labelBg.png */,
+				02891B492459CCF8002910A3 /* Rectangle.png */,
+				02891B482459CCF8002910A3 /* restart.png */,
 				02681E642457436900DB1524 /* LaunchScreen.storyboard */,
 				02681E672457436900DB1524 /* Info.plist */,
 				02681E5F2457436800DB1524 /* Mobile_App_Dev_Final_Dr_Foodie.xcdatamodeld */,
-				02891B492459CCF8002910A3 /* Rectangle.png */,
-				02891B482459CCF8002910A3 /* restart.png */,
 				02891B4C2459CDAB002910A3 /* OnboardingA.swift */,
 				02891B4E2459CDC1002910A3 /* OnboardingB.swift */,
 				02891B502459CDDC002910A3 /* OnboardingC.swift */,
 				1133CCC7245B334B004B350F /* CounterImg.png */,
+				0276961E245A7AA100BD3F6D /* EditProfileAViewController.swift */,
+				02769620245A7AB700BD3F6D /* EditProfileBViewController.swift */,
+				02769622245A7AED00BD3F6D /* EditProfileCViewController.swift */,
 				02891B542459D852002910A3 /* DiaryViewController.swift */,
 				02891B562459D85B002910A3 /* LearnViewController.swift */,
 				02891B582459D86C002910A3 /* MeViewController.swift */,
@@ -218,7 +228,10 @@
 				1193F7C2245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift in Sources */,
 				02891B592459D86C002910A3 /* MeViewController.swift in Sources */,
 				1193F7BA245E000F002C6B84 /* Lunch+CoreDataClass.swift in Sources */,
+				02769621245A7AB700BD3F6D /* EditProfileBViewController.swift in Sources */,
 				02681E612457436800DB1524 /* Mobile_App_Dev_Final_Dr_Foodie.xcdatamodeld in Sources */,
+				0276961F245A7AA100BD3F6D /* EditProfileAViewController.swift in Sources */,
+				02769623245A7AED00BD3F6D /* EditProfileCViewController.swift in Sources */,
 				02891B512459CDDC002910A3 /* OnboardingC.swift in Sources */,
 				1193F7BD245E000F002C6B84 /* Breakfast+CoreDataProperties.swift in Sources */,
 				1193F7BB245E000F002C6B84 /* Lunch+CoreDataProperties.swift in Sources */,
