@@ -40,6 +40,8 @@
 		1193F7C3245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B9245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift */; };
 		1193F7C9245E891F002C6B84 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7C8245E891F002C6B84 /* Diary.swift */; };
 		1193F7CB245E8CB8002C6B84 /* SampleDataDiaryCalories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7CA245E8CB8002C6B84 /* SampleDataDiaryCalories.swift */; };
+		1193F7CF245FB56B002C6B84 /* SplashBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1193F7CE245FB56B002C6B84 /* SplashBg.png */; };
+		1193F7D1245FBA87002C6B84 /* CounterImageGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1193F7D0245FBA87002C6B84 /* CounterImageGreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		1193F7B9245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryCalories+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1193F7C8245E891F002C6B84 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		1193F7CA245E8CB8002C6B84 /* SampleDataDiaryCalories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataDiaryCalories.swift; sourceTree = "<group>"; };
+		1193F7CE245FB56B002C6B84 /* SplashBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashBg.png; sourceTree = "<group>"; };
+		1193F7D0245FBA87002C6B84 /* CounterImageGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CounterImageGreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +133,6 @@
 				1193F792245BDF1F002C6B84 /* Meal.swift */,
 				1193F79A245BEF77002C6B84 /* images */,
 				02681E622457436900DB1524 /* Assets.xcassets */,
-				02891B522459CF21002910A3 /* labelBg.png */,
 				02891B492459CCF8002910A3 /* Rectangle.png */,
 				02891B482459CCF8002910A3 /* restart.png */,
 				02681E642457436900DB1524 /* LaunchScreen.storyboard */,
@@ -145,6 +148,8 @@
 				02891B542459D852002910A3 /* DiaryViewController.swift */,
 				02891B562459D85B002910A3 /* LearnViewController.swift */,
 				02891B582459D86C002910A3 /* MeViewController.swift */,
+				1193F7CE245FB56B002C6B84 /* SplashBg.png */,
+				1193F7D0245FBA87002C6B84 /* CounterImageGreen.png */,
 			);
 			path = "Mobile-App-Dev_Final-Dr-Foodie";
 			sourceTree = "<group>";
@@ -210,6 +215,8 @@
 				02891B4B2459CCF9002910A3 /* Rectangle.png in Resources */,
 				02681E662457436900DB1524 /* LaunchScreen.storyboard in Resources */,
 				1133CCC8245B334B004B350F /* CounterImg.png in Resources */,
+				1193F7D1245FBA87002C6B84 /* CounterImageGreen.png in Resources */,
+				1193F7CF245FB56B002C6B84 /* SplashBg.png in Resources */,
 				02681E632457436900DB1524 /* Assets.xcassets in Resources */,
 				02681E5E2457436800DB1524 /* Main.storyboard in Resources */,
 				1193F79B245BEF77002C6B84 /* images in Resources */,
