@@ -36,12 +36,13 @@ class LearnViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        name = UserDefaults.standard.string(forKey: "name");
+        //name = UserDefaults.standard.string(forKey: "name");
         answerGroups.append(answerGroupA);
         answerGroups.append(answerGroupB);
         answerGroups.append(answerGroupC);
         //nameLabel.text = "Hello, \(String(describing: name))!";
-        nameLabel.text = name;
+        let userName = UserDefaults.standard.string(forKey: "name")!;
+        nameLabel.text = "Hello, " + userName
         result.isHidden = true;
         answerLabel.isHidden = true;
         answerContent.isHidden = true;

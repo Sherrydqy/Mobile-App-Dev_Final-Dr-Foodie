@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 class DiaryViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITableViewDelegate, UITableViewDataSource {
-    
+   // var userName:String;
     
 //    @IBOutlet var outputTargetC:UILabel!;
 //    @IBOutlet var outputName:UILabel!;
@@ -193,11 +193,12 @@ class DiaryViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
         currentMealList = breakfastList
         
 //        let userName = UserDefaults.standard.string(forKey: "name")
-        let userName = "Maria"
+        //let userName = "Maria"
+        let userName = UserDefaults.standard.string(forKey: "name")!;
         lbluserName.text = "Hello, " + userName
         
 //        let calGoal = UserDefaults.standard.float(forKey: "targetCalories")
-        calGoal = 1500
+        calGoal = UserDefaults.standard.integer(forKey: "targetCalories")
         lblCalGoal.text = String(calGoal) + " kCal"
         lblCalConsumed.text = String(calConsumed) + " KCal"
 //        lblCalGoal.text = String(format: "%.0f", calGoal) + " KCal"
