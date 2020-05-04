@@ -18,10 +18,25 @@
 		02891B4D2459CDAB002910A3 /* OnboardingA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B4C2459CDAB002910A3 /* OnboardingA.swift */; };
 		02891B4F2459CDC1002910A3 /* OnboardingB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B4E2459CDC1002910A3 /* OnboardingB.swift */; };
 		02891B512459CDDC002910A3 /* OnboardingC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B502459CDDC002910A3 /* OnboardingC.swift */; };
-		02891B532459CF21002910A3 /* labelBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 02891B522459CF21002910A3 /* labelBg.png */; };
 		02891B552459D852002910A3 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B542459D852002910A3 /* DiaryViewController.swift */; };
 		02891B572459D85B002910A3 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B562459D85B002910A3 /* LearnViewController.swift */; };
 		02891B592459D86C002910A3 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02891B582459D86C002910A3 /* MeViewController.swift */; };
+		1133CCC8245B334B004B350F /* CounterImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1133CCC7245B334B004B350F /* CounterImg.png */; };
+		1193F793245BDF1F002C6B84 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F792245BDF1F002C6B84 /* Meal.swift */; };
+		1193F797245BDF8A002C6B84 /* SampleDataMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F796245BDF8A002C6B84 /* SampleDataMeal.swift */; };
+		1193F79B245BEF77002C6B84 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1193F79A245BEF77002C6B84 /* images */; };
+		1193F7BA245E000F002C6B84 /* Lunch+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B0245E000F002C6B84 /* Lunch+CoreDataClass.swift */; };
+		1193F7BB245E000F002C6B84 /* Lunch+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B1245E000F002C6B84 /* Lunch+CoreDataProperties.swift */; };
+		1193F7BC245E000F002C6B84 /* Breakfast+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B2245E000F002C6B84 /* Breakfast+CoreDataClass.swift */; };
+		1193F7BD245E000F002C6B84 /* Breakfast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B3245E000F002C6B84 /* Breakfast+CoreDataProperties.swift */; };
+		1193F7BE245E000F002C6B84 /* Dinner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B4245E000F002C6B84 /* Dinner+CoreDataClass.swift */; };
+		1193F7BF245E000F002C6B84 /* Dinner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B5245E000F002C6B84 /* Dinner+CoreDataProperties.swift */; };
+		1193F7C0245E000F002C6B84 /* Snacks+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B6245E000F002C6B84 /* Snacks+CoreDataClass.swift */; };
+		1193F7C1245E000F002C6B84 /* Snacks+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B7245E000F002C6B84 /* Snacks+CoreDataProperties.swift */; };
+		1193F7C2245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B8245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift */; };
+		1193F7C3245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7B9245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift */; };
+		1193F7C9245E891F002C6B84 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7C8245E891F002C6B84 /* Diary.swift */; };
+		1193F7CB245E8CB8002C6B84 /* SampleDataDiaryCalories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F7CA245E8CB8002C6B84 /* SampleDataDiaryCalories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +53,25 @@
 		02891B4C2459CDAB002910A3 /* OnboardingA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingA.swift; sourceTree = "<group>"; };
 		02891B4E2459CDC1002910A3 /* OnboardingB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingB.swift; sourceTree = "<group>"; };
 		02891B502459CDDC002910A3 /* OnboardingC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingC.swift; sourceTree = "<group>"; };
-		02891B522459CF21002910A3 /* labelBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = labelBg.png; path = ../../../../../../../Downloads/labelBg.png; sourceTree = "<group>"; };
 		02891B542459D852002910A3 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		02891B562459D85B002910A3 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		02891B582459D86C002910A3 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		1133CCC7245B334B004B350F /* CounterImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CounterImg.png; sourceTree = "<group>"; };
+		1193F792245BDF1F002C6B84 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1193F796245BDF8A002C6B84 /* SampleDataMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataMeal.swift; sourceTree = "<group>"; };
+		1193F79A245BEF77002C6B84 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1193F7B0245E000F002C6B84 /* Lunch+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lunch+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1193F7B1245E000F002C6B84 /* Lunch+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lunch+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1193F7B2245E000F002C6B84 /* Breakfast+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Breakfast+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1193F7B3245E000F002C6B84 /* Breakfast+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Breakfast+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1193F7B4245E000F002C6B84 /* Dinner+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dinner+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1193F7B5245E000F002C6B84 /* Dinner+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dinner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1193F7B6245E000F002C6B84 /* Snacks+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snacks+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1193F7B7245E000F002C6B84 /* Snacks+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snacks+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1193F7B8245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryCalories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1193F7B9245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryCalories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1193F7C8245E891F002C6B84 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		1193F7CA245E8CB8002C6B84 /* SampleDataDiaryCalories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataDiaryCalories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +104,24 @@
 		02681E532457436800DB1524 /* Mobile-App-Dev_Final-Dr-Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				1193F7B0245E000F002C6B84 /* Lunch+CoreDataClass.swift */,
+				1193F7B1245E000F002C6B84 /* Lunch+CoreDataProperties.swift */,
+				1193F7B2245E000F002C6B84 /* Breakfast+CoreDataClass.swift */,
+				1193F7B3245E000F002C6B84 /* Breakfast+CoreDataProperties.swift */,
+				1193F7B4245E000F002C6B84 /* Dinner+CoreDataClass.swift */,
+				1193F7B5245E000F002C6B84 /* Dinner+CoreDataProperties.swift */,
+				1193F7B6245E000F002C6B84 /* Snacks+CoreDataClass.swift */,
+				1193F7B7245E000F002C6B84 /* Snacks+CoreDataProperties.swift */,
+				1193F7B8245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift */,
+				1193F7B9245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift */,
 				02681E542457436800DB1524 /* AppDelegate.swift */,
 				02681E562457436800DB1524 /* SceneDelegate.swift */,
 				02681E5C2457436800DB1524 /* Main.storyboard */,
-				02891B522459CF21002910A3 /* labelBg.png */,
+				1193F796245BDF8A002C6B84 /* SampleDataMeal.swift */,
+				1193F7CA245E8CB8002C6B84 /* SampleDataDiaryCalories.swift */,
+				1193F7C8245E891F002C6B84 /* Diary.swift */,
+				1193F792245BDF1F002C6B84 /* Meal.swift */,
+				1193F79A245BEF77002C6B84 /* images */,
 				02681E622457436900DB1524 /* Assets.xcassets */,
 				02681E642457436900DB1524 /* LaunchScreen.storyboard */,
 				02681E672457436900DB1524 /* Info.plist */,
@@ -87,6 +131,7 @@
 				02891B4C2459CDAB002910A3 /* OnboardingA.swift */,
 				02891B4E2459CDC1002910A3 /* OnboardingB.swift */,
 				02891B502459CDDC002910A3 /* OnboardingC.swift */,
+				1133CCC7245B334B004B350F /* CounterImg.png */,
 				02891B542459D852002910A3 /* DiaryViewController.swift */,
 				02891B562459D85B002910A3 /* LearnViewController.swift */,
 				02891B582459D86C002910A3 /* MeViewController.swift */,
@@ -154,9 +199,10 @@
 			files = (
 				02891B4B2459CCF9002910A3 /* Rectangle.png in Resources */,
 				02681E662457436900DB1524 /* LaunchScreen.storyboard in Resources */,
+				1133CCC8245B334B004B350F /* CounterImg.png in Resources */,
 				02681E632457436900DB1524 /* Assets.xcassets in Resources */,
-				02891B532459CF21002910A3 /* labelBg.png in Resources */,
 				02681E5E2457436800DB1524 /* Main.storyboard in Resources */,
+				1193F79B245BEF77002C6B84 /* images in Resources */,
 				02891B4A2459CCF9002910A3 /* restart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,15 +214,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1193F793245BDF1F002C6B84 /* Meal.swift in Sources */,
+				1193F7C2245E000F002C6B84 /* DiaryCalories+CoreDataClass.swift in Sources */,
 				02891B592459D86C002910A3 /* MeViewController.swift in Sources */,
+				1193F7BA245E000F002C6B84 /* Lunch+CoreDataClass.swift in Sources */,
 				02681E612457436800DB1524 /* Mobile_App_Dev_Final_Dr_Foodie.xcdatamodeld in Sources */,
 				02891B512459CDDC002910A3 /* OnboardingC.swift in Sources */,
+				1193F7BD245E000F002C6B84 /* Breakfast+CoreDataProperties.swift in Sources */,
+				1193F7BB245E000F002C6B84 /* Lunch+CoreDataProperties.swift in Sources */,
 				02891B4D2459CDAB002910A3 /* OnboardingA.swift in Sources */,
 				02891B552459D852002910A3 /* DiaryViewController.swift in Sources */,
+				1193F7BE245E000F002C6B84 /* Dinner+CoreDataClass.swift in Sources */,
+				1193F7C1245E000F002C6B84 /* Snacks+CoreDataProperties.swift in Sources */,
+				1193F7C3245E000F002C6B84 /* DiaryCalories+CoreDataProperties.swift in Sources */,
+				1193F7CB245E8CB8002C6B84 /* SampleDataDiaryCalories.swift in Sources */,
 				02891B4F2459CDC1002910A3 /* OnboardingB.swift in Sources */,
 				02891B572459D85B002910A3 /* LearnViewController.swift in Sources */,
+				1193F7C9245E891F002C6B84 /* Diary.swift in Sources */,
 				02681E552457436800DB1524 /* AppDelegate.swift in Sources */,
+				1193F7BC245E000F002C6B84 /* Breakfast+CoreDataClass.swift in Sources */,
+				1193F7C0245E000F002C6B84 /* Snacks+CoreDataClass.swift in Sources */,
+				1193F7BF245E000F002C6B84 /* Dinner+CoreDataProperties.swift in Sources */,
 				02681E572457436800DB1524 /* SceneDelegate.swift in Sources */,
+				1193F797245BDF8A002C6B84 /* SampleDataMeal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
