@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G4032" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Breakfast" representedClassName="Breakfast" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="toDiaryEntry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryCalories" inverseName="breakfastList" inverseEntity="DiaryCalories"/>
+    </entity>
+    <entity name="DiaryCalories" representedClassName="DiaryCalories" syncable="YES">
+        <attribute name="calConsumed" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="calGoal" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="percentage" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="breakfastList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Breakfast" inverseName="toDiaryEntry" inverseEntity="Breakfast"/>
+        <relationship name="dinnerList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Dinner" inverseName="toDiaryEntry" inverseEntity="Dinner"/>
+        <relationship name="lunchList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lunch" inverseName="toDiaryEntry" inverseEntity="Lunch"/>
+        <relationship name="snackList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Snacks" inverseName="toDiaryEntry" inverseEntity="Snacks"/>
+    </entity>
+    <entity name="Dinner" representedClassName="Dinner" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="toDiaryEntry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryCalories" inverseName="dinnerList" inverseEntity="DiaryCalories"/>
+    </entity>
+    <entity name="Lunch" representedClassName="Lunch" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="toDiaryEntry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryCalories" inverseName="lunchList" inverseEntity="DiaryCalories"/>
+    </entity>
+    <entity name="Snacks" representedClassName="Snacks" syncable="YES">
+        <attribute name="calories" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="toDiaryEntry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DiaryCalories" inverseName="snackList" inverseEntity="DiaryCalories"/>
+    </entity>
+    <elements>
+        <element name="DiaryCalories" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="Breakfast" positionX="-54" positionY="18" width="128" height="88"/>
+        <element name="Lunch" positionX="-36" positionY="36" width="128" height="88"/>
+        <element name="Dinner" positionX="-18" positionY="54" width="128" height="88"/>
+        <element name="Snacks" positionX="0" positionY="72" width="128" height="88"/>
+    </elements>
 </model>

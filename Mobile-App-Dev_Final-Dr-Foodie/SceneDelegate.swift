@@ -22,11 +22,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let mainStoryboard = UIStoryboard(name:"Main", bundle: nil);
         var vc: UIViewController;
         print("看我|\(launchedBefore)");
-        if launchedBefore{
+//        if launchedBefore{
             vc = mainStoryboard.instantiateInitialViewController()!
-        } else {
-            vc = mainStoryboard.instantiateViewController(identifier: "Onboarding");
-        }
+//        } else {
+//            vc = mainStoryboard.instantiateViewController(identifier: "Onboarding");
+//        }
         UserDefaults.standard.set(false, forKey: "hasLaunched");
         self.window?.rootViewController = vc;
     }
